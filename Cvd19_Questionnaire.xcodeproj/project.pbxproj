@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4F7ABC286372FF003EC4B6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F7ABB286372FF003EC4B6 /* FormView.swift */; };
+		0F4F7ABF2863AF64003EC4B6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0F4F7ABE2863AF64003EC4B6 /* FirebaseAuth */; };
+		0F4F7AC12863AF64003EC4B6 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0F4F7AC02863AF64003EC4B6 /* FirebaseAuthCombine-Community */; };
+		0F6753A9285CE0CE007342C8 /* Cvd19_QuestionnaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753A8285CE0CE007342C8 /* Cvd19_QuestionnaireApp.swift */; };
+		0F6753AD285CE0D0007342C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6753AC285CE0D0007342C8 /* Assets.xcassets */; };
+		0F6753B0285CE0D0007342C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6753AF285CE0D0007342C8 /* Preview Assets.xcassets */; };
+		0F6753B7285CF0CE007342C8 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753B6285CF0CE007342C8 /* SignIn.swift */; };
+		0F6753B9285CF10F007342C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753B8285CF10F007342C8 /* ContentView.swift */; };
+		0F6753BB285CF122007342C8 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753BA285CF122007342C8 /* SignUp.swift */; };
+		0F6753BD285CF132007342C8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753BC285CF132007342C8 /* Profile.swift */; };
+		0F6753BF285CF148007342C8 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753BE285CF148007342C8 /* Start.swift */; };
+		0F6753C1285CF15F007342C8 /* AfterComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753C0285CF15F007342C8 /* AfterComplete.swift */; };
+		0F6753C3285CF16D007342C8 /* CovidListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753C2285CF16D007342C8 /* CovidListView.swift */; };
+		0F6753C5285CF17D007342C8 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753C4285CF17D007342C8 /* DateView.swift */; };
+		0F6753C9285CF199007342C8 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753C8285CF199007342C8 /* Statistics.swift */; };
+		0F6753CB285F8837007342C8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6753CA285F8837007342C8 /* MenuView.swift */; };
+		0FBAD93E2863558F00329122 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0FBAD93D2863558F00329122 /* FirebaseFirestore */; };
+		0FBAD9402863558F00329122 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0FBAD93F2863558F00329122 /* FirebaseFirestoreSwift */; };
+		0FBAD9422863566700329122 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FBAD9412863566700329122 /* GoogleService-Info.plist */; };
+		0FBAD94928635B6E00329122 /* CovidRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAD94828635B6E00329122 /* CovidRepository.swift */; };
+		0FBAD94B28635C4300329122 /* MyCovid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAD94A28635C4200329122 /* MyCovid.swift */; };
+		0FBAD94D28635F6500329122 /* CovidListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAD94C28635F6500329122 /* CovidListViewModel.swift */; };
+		0FBAD94F2863658A00329122 /* CovidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAD94E2863658A00329122 /* CovidView.swift */; };
+		0FBAD951286365FB00329122 /* CovidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAD950286365FB00329122 /* CovidViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4F7ABB286372FF003EC4B6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		0F6753A5285CE0CE007342C8 /* Cvd19_Questionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cvd19_Questionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6753A8285CE0CE007342C8 /* Cvd19_QuestionnaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cvd19_QuestionnaireApp.swift; sourceTree = "<group>"; };
+		0F6753AC285CE0D0007342C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F6753AF285CE0D0007342C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F6753B6285CF0CE007342C8 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		0F6753B8285CF10F007342C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F6753BA285CF122007342C8 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		0F6753BC285CF132007342C8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0F6753BE285CF148007342C8 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		0F6753C0285CF15F007342C8 /* AfterComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterComplete.swift; sourceTree = "<group>"; };
+		0F6753C2285CF16D007342C8 /* CovidListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidListView.swift; sourceTree = "<group>"; };
+		0F6753C4285CF17D007342C8 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		0F6753C8285CF199007342C8 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		0F6753CA285F8837007342C8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0FBAD9412863566700329122 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FBAD94828635B6E00329122 /* CovidRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidRepository.swift; sourceTree = "<group>"; };
+		0FBAD94A28635C4200329122 /* MyCovid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCovid.swift; sourceTree = "<group>"; };
+		0FBAD94C28635F6500329122 /* CovidListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidListViewModel.swift; sourceTree = "<group>"; };
+		0FBAD94E2863658A00329122 /* CovidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidView.swift; sourceTree = "<group>"; };
+		0FBAD950286365FB00329122 /* CovidViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F6753A2285CE0CE007342C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBAD93E2863558F00329122 /* FirebaseFirestore in Frameworks */,
+				0F4F7ABF2863AF64003EC4B6 /* FirebaseAuth in Frameworks */,
+				0FBAD9402863558F00329122 /* FirebaseFirestoreSwift in Frameworks */,
+				0F4F7AC12863AF64003EC4B6 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F67539C285CE0CE007342C8 = {
+			isa = PBXGroup;
+			children = (
+				0F6753A7285CE0CE007342C8 /* Cvd19_Questionnaire */,
+				0F6753A6285CE0CE007342C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F6753A6285CE0CE007342C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6753A5285CE0CE007342C8 /* Cvd19_Questionnaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6753A7285CE0CE007342C8 /* Cvd19_Questionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				0F6753A8285CE0CE007342C8 /* Cvd19_QuestionnaireApp.swift */,
+				0FBAD94728635B2800329122 /* Repository */,
+				0FBAD94628635A9500329122 /* ViewModels */,
+				0FBAD94428635A8000329122 /* Models */,
+				0FBAD94328635A6800329122 /* Views */,
+				0F6753B8285CF10F007342C8 /* ContentView.swift */,
+				0F6753B6285CF0CE007342C8 /* SignIn.swift */,
+				0F6753BA285CF122007342C8 /* SignUp.swift */,
+				0F6753BC285CF132007342C8 /* Profile.swift */,
+				0F6753CA285F8837007342C8 /* MenuView.swift */,
+				0F6753BE285CF148007342C8 /* Start.swift */,
+				0F6753C0285CF15F007342C8 /* AfterComplete.swift */,
+				0F6753C4285CF17D007342C8 /* DateView.swift */,
+				0F6753C8285CF199007342C8 /* Statistics.swift */,
+				0F6753AC285CE0D0007342C8 /* Assets.xcassets */,
+				0FBAD9412863566700329122 /* GoogleService-Info.plist */,
+				0F6753AE285CE0D0007342C8 /* Preview Content */,
+			);
+			path = Cvd19_Questionnaire;
+			sourceTree = "<group>";
+		};
+		0F6753AE285CE0D0007342C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F6753AF285CE0D0007342C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FBAD94328635A6800329122 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F6753C2285CF16D007342C8 /* CovidListView.swift */,
+				0FBAD94E2863658A00329122 /* CovidView.swift */,
+				0F4F7ABB286372FF003EC4B6 /* FormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FBAD94428635A8000329122 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FBAD94A28635C4200329122 /* MyCovid.swift */,
+				0FBAD950286365FB00329122 /* CovidViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FBAD94628635A9500329122 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0FBAD94C28635F6500329122 /* CovidListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0FBAD94728635B2800329122 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0FBAD94828635B6E00329122 /* CovidRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6753A4285CE0CE007342C8 /* Cvd19_Questionnaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6753B3285CE0D0007342C8 /* Build configuration list for PBXNativeTarget "Cvd19_Questionnaire" */;
+			buildPhases = (
+				0F6753A1285CE0CE007342C8 /* Sources */,
+				0F6753A2285CE0CE007342C8 /* Frameworks */,
+				0F6753A3285CE0CE007342C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cvd19_Questionnaire;
+			packageProductDependencies = (
+				0FBAD93D2863558F00329122 /* FirebaseFirestore */,
+				0FBAD93F2863558F00329122 /* FirebaseFirestoreSwift */,
+				0F4F7ABE2863AF64003EC4B6 /* FirebaseAuth */,
+				0F4F7AC02863AF64003EC4B6 /* FirebaseAuthCombine-Community */,
+			);
+			productName = Cvd19_Questionnaire;
+			productReference = 0F6753A5285CE0CE007342C8 /* Cvd19_Questionnaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F67539D285CE0CE007342C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0F6753A4285CE0CE007342C8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0F6753A0285CE0CE007342C8 /* Build configuration list for PBXProject "Cvd19_Questionnaire" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F67539C285CE0CE007342C8;
+			packageReferences = (
+				0FBAD93C2863558F00329122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0F4F7ABD2863AF64003EC4B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 0F6753A6285CE0CE007342C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6753A4285CE0CE007342C8 /* Cvd19_Questionnaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F6753A3285CE0CE007342C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6753B0285CE0D0007342C8 /* Preview Assets.xcassets in Resources */,
+				0F6753AD285CE0D0007342C8 /* Assets.xcassets in Resources */,
+				0FBAD9422863566700329122 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6753A1285CE0CE007342C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6753C3285CF16D007342C8 /* CovidListView.swift in Sources */,
+				0F6753C5285CF17D007342C8 /* DateView.swift in Sources */,
+				0FBAD94B28635C4300329122 /* MyCovid.swift in Sources */,
+				0F6753B9285CF10F007342C8 /* ContentView.swift in Sources */,
+				0F6753C1285CF15F007342C8 /* AfterComplete.swift in Sources */,
+				0F6753BD285CF132007342C8 /* Profile.swift in Sources */,
+				0F4F7ABC286372FF003EC4B6 /* FormView.swift in Sources */,
+				0F6753BF285CF148007342C8 /* Start.swift in Sources */,
+				0FBAD951286365FB00329122 /* CovidViewModel.swift in Sources */,
+				0FBAD94D28635F6500329122 /* CovidListViewModel.swift in Sources */,
+				0F6753CB285F8837007342C8 /* MenuView.swift in Sources */,
+				0FBAD94F2863658A00329122 /* CovidView.swift in Sources */,
+				0F6753B7285CF0CE007342C8 /* SignIn.swift in Sources */,
+				0F6753A9285CE0CE007342C8 /* Cvd19_QuestionnaireApp.swift in Sources */,
+				0F6753C9285CF199007342C8 /* Statistics.swift in Sources */,
+				0F6753BB285CF122007342C8 /* SignUp.swift in Sources */,
+				0FBAD94928635B6E00329122 /* CovidRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F6753B1285CE0D0007342C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F6753B2285CE0D0007342C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6753B4285CE0D0007342C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cvd19_Questionnaire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithibrahim.Cvd19-Questionnaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F6753B5285CE0D0007342C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cvd19_Questionnaire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithibrahim.Cvd19-Questionnaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6753A0285CE0CE007342C8 /* Build configuration list for PBXProject "Cvd19_Questionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6753B1285CE0D0007342C8 /* Debug */,
+				0F6753B2285CE0D0007342C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6753B3285CE0D0007342C8 /* Build configuration list for PBXNativeTarget "Cvd19_Questionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6753B4285CE0D0007342C8 /* Debug */,
+				0F6753B5285CE0D0007342C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F4F7ABD2863AF64003EC4B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		0FBAD93C2863558F00329122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F4F7ABE2863AF64003EC4B6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F4F7ABD2863AF64003EC4B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0F4F7AC02863AF64003EC4B6 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F4F7ABD2863AF64003EC4B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		0FBAD93D2863558F00329122 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FBAD93C2863558F00329122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0FBAD93F2863558F00329122 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FBAD93C2863558F00329122 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0F67539D285CE0CE007342C8 /* Project object */;
+}
